@@ -1,6 +1,11 @@
 ﻿# 📚 BookHaven &mdash; Digital Book Catalog & Library Management
 
-A lightweight, modern web catalog for managing books, reading lists, and literature collections. This repository serves as a comprehensive practical submission for **Software Development Practices: Staff Graded Assessment - 2**, demonstrating industry-standard **Git & GitHub Version Control Workflows** alongside robust **Software Test Case Design**.
+**Author:** Jayanth Ponnala  
+**Student ID / Roll No:** 2024EB01699  
+**Email:** jayanthponnala123@gmail.com  
+**Course:** Software Development Practices &mdash; Staff Graded Assessment - 2 (SGA-2)  
+
+A lightweight, modern web catalog for managing books, reading lists, and literature collections. This repository serves as a comprehensive practical submission for **Software Development Practices: Staff Graded Assessment - 2**, demonstrating industry-standard **Git & GitHub Version Control Workflows** alongside robust **Software Test Case Design**. for managing books, reading lists, and literature collections. This repository serves as a comprehensive practical submission for **Software Development Practices: Staff Graded Assessment - 2**, demonstrating industry-standard **Git & GitHub Version Control Workflows** alongside robust **Software Test Case Design**.
 
 ---
 
@@ -114,3 +119,4 @@ git push -u origin main
 # Push the feature branch to preserve historical branch tracking
 git push origin feature
 ```
+
