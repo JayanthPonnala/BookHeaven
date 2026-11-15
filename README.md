@@ -111,7 +111,7 @@ To link this local repository to GitHub and publish both `main` and `feature` br
 
 ```powershell
 # Link your local repository to your GitHub remote (replace YOUR_GITHUB_USERNAME)
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/BookHaven.git
+git remote add origin https://github.com/JayanthPonnala/BookHeaven.git
 
 # Push the main branch and set upstream tracking
 git push -u origin main
@@ -119,4 +119,5 @@ git push -u origin main
 # Push the feature branch to preserve historical branch tracking
 git push origin feature
 ```
+
 
