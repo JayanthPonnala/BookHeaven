@@ -1,0 +1,66 @@
+﻿============================================================
+       Git Commands Used in the BookHaven Project
+============================================================
+
+1. git init
+   - Initializes a new Git repository in the current directory.
+   - Creates a hidden .git directory to store version history and tracking metadata.
+
+2. git branch -M main
+   - Renames the default/current working branch to "main".
+   - Aligns the repository with contemporary industry Git branch naming conventions.
+
+3. git config user.name & git config user.email
+   - Inspects or configures committer identity locally or globally.
+   - Ensures all recorded repository commits carry verified author information.
+
+4. git add <file>
+   - Stages specified modified or new file(s) into the Git staging index.
+   - Prepares file snapshots for inclusion in the upcoming commit.
+
+5. git commit -m "<message>"
+   - Records staged snapshot changes permanently into repository history.
+   - Attaches a clear, human-readable description of the changes made.
+
+6. git checkout -b <branch>
+   - Creates an isolated new feature branch and immediately switches HEAD to it.
+   - Enables developers to build and test new features without affecting main.
+
+7. git checkout <branch>
+   - Switches the working directory and HEAD pointer to an existing branch.
+   - Restores the working tree files to match the target branch state.
+
+8. git merge <branch>
+   - Integrates commits and changes from a specified branch into the active branch.
+   - Performs a fast-forward or merge commit based on repository topology.
+
+9. git log --oneline --graph --all
+   - Renders a compact, single-line visual ASCII graph of the commit history.
+   - Displays all branches, branch points, merges, and commit hashes across the repository.
+
+10. git status
+    - Displays the state of the working tree and staging area.
+    - Identifies modified, untracked, staged, or ignored files.
+
+11. git revert <commit> --no-edit
+    - Safely undoes a previous commit by creating an inverse forward-moving commit.
+    - Preserves immutable Git audit trail history rather than destructively rewriting it.
+
+12. git remote add origin <url>
+    - Links the local repository to a remote Git hosting service such as GitHub.
+    - Establishes the remote endpoint name "origin" pointing to the remote repository URL.
+
+13. git push -u origin <branch>
+    - Uploads local branch commits to the remote repository on GitHub.
+    - Sets upstream tracking (-u) so subsequent 'git push' and 'git pull' require no extra arguments.
+
+14. git push origin <branch>
+    - Pushes a secondary or specific branch (such as feature) to the remote repository.
+
+============================================================
+                      Exclusion Rules
+============================================================
+.gitignore
+   - Instructs Git which file patterns to ignore from version control:
+     * *.log   : Excludes all log and debug execution output files.
+     * temp/   : Excludes temporary directories, caches, and scratch files.
